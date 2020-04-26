@@ -147,10 +147,13 @@ saveStateToLocalStorage() {
               </li>
             );
           })}
+          <div className="footer">
+            <p> For Lauren - the list queen </p>
+          </div>
         </ul>
       </div>
     </div></div>
-  )};
+  )}
 };
 
 
