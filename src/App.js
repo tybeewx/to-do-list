@@ -152,10 +152,10 @@ saveStateToLocalStorage() {
               </li>
             );
           })}
-          <footer className="footer">
+          <div className="footer">
             <p> Built by TybeeWx © 2020</p>
             <p> For Lauren - the list queen </p>
-          </footer>
+          </div>
         </ul>
       </div>
     </div>
