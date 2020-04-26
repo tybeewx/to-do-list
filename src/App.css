@@ -31,12 +31,4 @@ body{
     border: 35px solid pink;
     border-radius: 35px;
 
-}
-.footer {
-    width: 100%;
-    opacity: 70%;
-    font-size: 15px;
-    background-color: rgb(159, 242, 253);
-    color: rgba(77, 73, 73, 0.76);
-    text-align: center;
 };
