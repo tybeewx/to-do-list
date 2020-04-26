@@ -1,13 +1,19 @@
+.page-container{
+    position: flex;
+    min-height: 100%;
+    width:100%;
+}
+
 body{
     background-image: linear-gradient(to right, rgb(248, 194, 255) , rgb(255, 255, 198));
     font-family: 'Satisfy', cursive;
     font-size: 30px;
+    width: auto;
 
 }
 
 .btn{
     background: pink;
-    margin: 20px;
     font-size: 12px;
 }
 
@@ -17,26 +23,26 @@ body{
     height: 40px;
     font-weight: bold;
     text-align: relative;
-    margin: 20px;
+    margin: 10px;
 }
 .app-title{
     text-align: center;
     color: lightblue;
-    font-size: 70px;
+    padding: 10;
+    font-size: 60px;
     text-shadow: 2px 2px #001aff;
 }
 .container{
     border: 35px solid pink;
     border-radius: 35px;
+    width: auto;
+
 }
 .footer {
-    position: fixed;
-    margin-top: -10px;
-    left: 0;
-    bottom: 0;
+    position: auto;
+    opacity: 70%;
     font-size: 15px;
-    height: 10%;
-    width: 100%;
+    width: 50vh;
     background-color: rgb(159, 242, 253);
     color: rgba(77, 73, 73, 0.76);
     text-align: center;

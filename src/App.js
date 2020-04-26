@@ -99,15 +99,19 @@ saveStateToLocalStorage() {
   }
   render(){
   return (
-    <div>
-        <h1 className="app-title">My To-Do List </h1>
+    <div className= "page-container">
+        <h1 className="app-title"
+        style={{
+          margin: 10,
+          padding: 0,
+        }}>My To-Do List </h1>
         <div className="container">
         <div
           style={{
-            padding: 30,
+            padding: 0,
             textAlign: "left",         
-            maxWidth: 500,
-            margin: "auto"
+            maxWidth: 600,
+            margin: "auto",
           }}>
       
         <br/>
@@ -139,7 +143,8 @@ saveStateToLocalStorage() {
                 <button className="btn btn-floating"
                 style={{
                   padding: 10,
-                  margin: 3,
+                  margin: 10,
+
                 }}
               onClick={() => this.deleteItem(item.id)}>
                   <i class="material-icons">DONE!</i>
@@ -147,13 +152,14 @@ saveStateToLocalStorage() {
               </li>
             );
           })}
-          <div className="footer">
+          <footer className="footer">
             <p> Built by TybeeWx © 2020</p>
             <p> For Lauren - the list queen </p>
-          </div>
+          </footer>
         </ul>
       </div>
-    </div></div>
+    </div>
+    </div>
   )}
 };
 
