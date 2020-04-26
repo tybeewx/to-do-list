@@ -139,7 +139,7 @@ saveStateToLocalStorage() {
                 <button className="btn btn-floating"
                 style={{
                   padding: 10,
-                  margin: 30,
+                  margin: 3,
                 }}
               onClick={() => this.deleteItem(item.id)}>
                   <i class="material-icons">DONE!</i>
@@ -148,6 +148,7 @@ saveStateToLocalStorage() {
             );
           })}
           <div className="footer">
+            <p> Built by TybeeWx © 2020</p>
             <p> For Lauren - the list queen </p>
           </div>
         </ul>
